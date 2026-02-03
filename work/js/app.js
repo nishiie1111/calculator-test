@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const equals = document.querySelector('.equals');
   const clear = document.querySelector('.clear');
 
+  
   numbers.forEach((button) => {
     button.addEventListener('click', () => {
       display.value += button.dataset.number;
